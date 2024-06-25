@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  margin: 0;
   font-family: sans-serif;
+  min-height: 500vh;
+}
+
+.red{
+  background-color: var(--primary-color);
+  width: var(--div-widht);
+  height: 50px;
 }
