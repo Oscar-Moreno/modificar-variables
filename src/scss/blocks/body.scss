@@ -5,10 +5,23 @@ body {
   margin: 0;
   font-family: sans-serif;
   min-height: 500vh;
+  background-color: var(--bg-color);
 }
 
 .red{
   background-color: var(--primary-color);
-  width: var(--div-widht);
+  width: var(--div-width);
   height: 50px;
+  position: fixed;
 }
+
+.mouse-follow{
+  background-color: blue;
+  top:var(--top);
+  left:var(--left);
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  pointer-events: none;
+}
+
